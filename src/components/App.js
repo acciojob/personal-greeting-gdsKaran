@@ -15,7 +15,7 @@ const App = () => {
       {/* Do not remove the main div */}
       <p>Enter your name:</p>
        <input type="text" onChange={handleChange} value={inputValue} />
-      {inputVlaue ? <p>Hello {inputVlaue}!</p> : null}
+      {inputValue ? <p>Hello {inputValue}!</p> : null}
     </div>
   );
 }
